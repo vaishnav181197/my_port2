@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Kalnia', serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(234, 230, 226);
+}
+
+.navlogo{
+    width:120px;
+}
+
+.navlinks{
+    padding: 20px;
+}
+
+.link{
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: font-size 400ms;
+    padding: 10px;
+}
+
+.link:hover{
+    font-size: 25px;
+    color: red;
+}
+
+.homecontent{
+    margin-top: 100px;
+    width: 45%;
+    margin-left: 30px;
+}
+
+.homecontent h1{
+    font-size: 50px;
+}
+
+
+.homecontent span{
+    color: #f2843f;
+}
+
+.homecontent p{
+    font-size: 20px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.homecontent a{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+.homeimg{
+    width: 45%;
+    position: absolute;
+    top: 170px;
+    bottom: 0px;
+    right: 30px;
+
+}
+
+.imgItem{
+    width: 90%;
+    height: 90%;
+    transition: transform 300ms;
+}
+
+.imgItem:hover{
+    transform: scale(0.80);
+}
+
+#about{
+    margin-top: 25%;
+    margin-left: 4%;
+}
+
+#about>h2{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+#about>h4{
+    text-align: center;
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+.abt_container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.abtImgItem{
+    width: 100%;
+}
+
+.abtintro{
+    text-align: justify;
+}
+
+.abtitem{
+    margin-top: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
